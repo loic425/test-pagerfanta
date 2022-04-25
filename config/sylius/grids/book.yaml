@@ -1,0 +1,7 @@
+sylius_grid:
+    grids:
+        app_book:
+            driver:
+                name: doctrine/orm
+                options:
+                    class: App\Entity\Book

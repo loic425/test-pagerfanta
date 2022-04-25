@@ -1,3 +1,11 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+app_book:
+    resource: |
+        alias: app.book
+        path: '/library'
+        templates: 'book'
+        grid: app_book
+    type: sylius.resource
