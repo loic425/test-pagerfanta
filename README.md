@@ -27,3 +27,16 @@ So this following command is required
 ```bash
 $ composer require pagerfanta/doctrine-orm-adapter
 ```
+
+## Upgrade only Resource bundle
+
+```bash
+$ composer require sylius/resource-bundle "^1.9" -W
+```
+
+```text
+Attempted to load class "DoctrineORMAdapter" from namespace "Pagerfanta\Adapter".
+Did you forget a "use" statement for another namespace?
+```
+
+Cause pagerfanta is upgraded on 3.x and grid bundle 1.10 does not support it.
