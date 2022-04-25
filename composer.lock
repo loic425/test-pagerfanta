@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aacf32a9e497b6d77a0d207e4a20d459",
+    "content-hash": "ff846fbf32d440f26474834cdfa32223",
     "packages": [
         {
             "name": "babdev/pagerfanta-bundle",
@@ -2942,16 +2942,16 @@
         },
         {
             "name": "sylius/grid-bundle",
-            "version": "v1.9.0",
+            "version": "v1.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/SyliusGridBundle.git",
-                "reference": "edc83c5867446e17b833253ab95e7a86ccddb564"
+                "reference": "81b813dfa5a919b75961b900083a6339a18f6da8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/SyliusGridBundle/zipball/edc83c5867446e17b833253ab95e7a86ccddb564",
-                "reference": "edc83c5867446e17b833253ab95e7a86ccddb564",
+                "url": "https://api.github.com/repos/Sylius/SyliusGridBundle/zipball/81b813dfa5a919b75961b900083a6339a18f6da8",
+                "reference": "81b813dfa5a919b75961b900083a6339a18f6da8",
                 "shasum": ""
             },
             "require": {
@@ -2987,11 +2987,12 @@
                 "pagerfanta/pagerfanta": "^1.1 || ^2.5",
                 "pamil/phpspec-skip-example-extension": "^4.2",
                 "phpspec/phpspec": "^7.0",
-                "phpstan/phpstan": "0.12.82",
+                "phpstan/phpstan": "0.12.94",
                 "phpstan/phpstan-phpunit": "0.12.18",
                 "phpstan/phpstan-webmozart-assert": "0.12.12",
                 "phpunit/phpunit": "^9.5",
-                "sylius-labs/coding-standard": "^3.0",
+                "rector/rector": "^0.11.47",
+                "sylius-labs/coding-standard": "^4.0",
                 "sylius/resource-bundle": "^1.8",
                 "symfony/console": "^4.4 || ^5.2",
                 "symfony/dotenv": "^4.4 || ^5.2",
@@ -3007,7 +3008,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.10-dev"
                 }
             },
             "autoload": {
@@ -3047,9 +3048,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Sylius/SyliusGridBundle/issues",
-                "source": "https://github.com/Sylius/SyliusGridBundle/tree/v1.9.0"
+                "source": "https://github.com/Sylius/SyliusGridBundle/tree/v1.10.2"
             },
-            "time": "2021-03-19T11:55:35+00:00"
+            "time": "2022-03-15T08:20:58+00:00"
         },
         {
             "name": "sylius/registry",
